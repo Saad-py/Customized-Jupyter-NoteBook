@@ -5,6 +5,5 @@ I won't change my IDE any time soon
 
 Anyways here are some pictures 
 
-
-![Screenshots](/pics/2021-04-04 (12).png)
-![Another Pic](/pics/2021-04-04 (13).png)
+<img src="/pics/2021-04-04 (12).png" alt="    "/>
+<img src="/pics/2021-04-04 (13).png" alt="    .   "/>
