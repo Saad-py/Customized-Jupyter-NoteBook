@@ -1,0 +1,92 @@
+/*
+Placeholder for custom user CSS
+
+mainly to be overridden in profile/static/custom/custom.css
+
+This will always be an empty file
+*/
+
+
+body > #header {
+  background-image: linear-gradient(to right,#f2aa4cff,rgb(242, 217, 76));
+}
+
+body, #notebook {
+  background-color: rgb(29, 27, 27);
+  color: #f2aa4cff;
+  font-wight: 500;
+}
+
+span {
+  color: lightcoral;
+}
+.navbar-default .navbar-collapse, menubar-container,button {
+  /* background-image: linear-gradient(to right,#f2aa4cff,rgb(242, 217, 76)); */
+  background-image: linear-gradient(to right,#f2aa4cff,rgb(242, 217, 76));
+}
+
+#col-md-12 {
+  background-image: linear-gradient(to right,#f2aa4cff,rgb(242, 217, 76));
+}
+
+div.input_area {
+    border: none;
+    border-radius: 0;
+    background: #f7f7f7;
+    line-height: 1.5em;
+    margin: 0.5em 0;
+    padding: 0;
+}
+
+div.cell {
+  transition: all 0.25s;
+  border: none;
+  position: relative;
+  top: 0;
+}
+div.cell.selected, div.cell.selected.jupyter-soft-selected {
+  border: none;
+  background: transparent;
+  box-shadow: 0 6px 18px #aaa;
+  z-index: 10;
+  top: -10px;
+}
+
+.output {
+  align-items: center;
+  font-size : 16px;
+
+}
+
+.CodeMirror pre.CodeMirror-line{
+  font-size: 16px;
+}
+
+.cm-s-ipython span.cm-builtin{
+  color: #669db3ff;
+}
+
+.cm-s-ipython span.cm-variable {
+  color: rgb(0, 173, 241);
+}
+
+.cm-s-ipython span.cm-keyword {
+  color: rgb(0, 125, 241);
+}
+
+.cm-s-ipython span.cm-comment {
+  color:rgb(0, 241, 201);
+}
+
+.cm-s-ipython span.cm-property {
+  color: lightcoral;
+}
+
+.cm-s-ipython span.cm-string {
+  color: rgb(212, 98, 98);
+
+}
+
+.cm-s-ipython span.cm-number {
+  color:rgb(212, 98, 98);
+}
