@@ -1,0 +1,143 @@
+/*
+Placeholder for custom user CSS
+
+mainly to be overridden in profile/static/custom/custom.css
+
+This will always be an empty file
+*/
+
+
+body > #header {
+  border: none;
+  height: 90px;
+  background-image: linear-gradient(to right, #10ccb9, #e77183);
+  
+
+  color: #F7F7FF;
+}
+
+
+div.input_prompt, span.item_name {
+  color: ghostwhite;
+}
+
+.running-indicator {
+  color: #10ccb9;
+}
+
+#notebook {
+  /* background-image: linear-gradient(to right,#ffba52ff, rgb(242,210,75));
+   */
+   background-image: linear-gradient(to right, #17C3B2, #EF798A);
+}
+
+#div.cell.selected:before, div.cell.selected.jupyter-soft-selected:before {
+  background: #009ea3;
+}
+
+#div.cell.selected:after, div.cell.selected.jupyter-soft-selected:after {
+  background: #8b00a3;
+}
+
+
+#site {
+  background-image: linear-gradient(to right, #17C3B2, #EF798A);
+
+}
+body, #notebook {
+  /* background-color: #100d62; */
+  /* background-color: #be93d4; */
+
+  /* background-image: linear-gradient(to right, #ae60d4, #be93d4); */
+
+  color: ghostwhite;
+}
+
+span {
+  color: lightcoral;
+}
+.navbar-default .navbar-collapse, menubar-container,button {
+  /* background-image: linear-gradient(to right,#f2aa4cff,rgb(242, 217, 76)); */
+  /* background-image: linear-gradient(to right,#64A6BD,#90A8C3); */
+  background-image: linear-gradient(to right, #cdfffc, #ffb6c1);
+  
+
+}
+
+#col-md-12 {
+  /* background-image: linear-gradient(to right, #17C3B2, #EF798A); */
+  background-image: linear-gradient(to right, #cdfffc, #ffb6c1);
+  color: ghostwhite;
+
+
+}
+
+#notebook-container {
+  /* background-color: #FFBF81; */
+  background-image: linear-gradient(to right, #17C3B2, #EF798A);
+}
+
+div.input_area {
+    border: none;
+    border-radius: 0;
+    background: #f7f7f7;
+    line-height: 1.5em;
+    margin: 0.5em 0;
+    padding: 0;
+}
+
+div.cell {
+  transition: all 0.25s;
+  border: none;
+  position: relative;
+  top: 0;
+}
+div.cell.selected, div.cell.selected.jupyter-soft-selected {
+  border: none;
+  background: transparent;
+  box-shadow: 6px 6px 15px 1px #f8abd3;
+  z-index: 10;
+  top: -10px;
+}
+
+.output {
+  align-items: center;
+  font-size : 16px;
+
+}
+
+.CodeMirror pre.CodeMirror-line{
+  font-size: 16px;
+}
+
+.cm-s-ipython span.cm-builtin{
+  color: #669db3ff;
+}
+
+.cm-s-ipython span.cm-variable {
+  color: rgb(0, 173, 241);
+}
+
+.cm-s-ipython span.cm-keyword {
+  color: rgb(0, 125, 241);
+}
+
+.cm-s-ipython span.cm-comment {
+  color:rgb(0, 241, 201);
+}
+
+.cm-s-ipython span.cm-property {
+  color: lightcoral;
+}
+
+.cm-s-ipython span.cm-string {
+  color: rgb(212, 98, 98);
+
+}
+
+.cm-s-ipython span.cm-number {
+  color:rgb(212, 98, 98);
+}
+div.output_area pre  {
+  color: white;
+}
